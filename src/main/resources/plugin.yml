@@ -1,3 +1,46 @@
 name: ForgottenRpg
 main: com.forgottenminecraft.ForgottenRpg.ForgottenRpg
 version: 0.0.1-SNAPSHOT
+
+commands:
+   frpg_pointone:
+     description: Defines point one
+     usage: /<command>
+     permission: forgottenrpg.pointone
+     permission-message: You don't have <permission>
+
+   frpg_pointtwo:
+     description: Defines point two
+     usage: /<command>
+     permission: forgottenrpg.pointtwo
+     permission-message: You don't have <permission>
+     
+   frpg_printpoints:
+     description: Prints the points defined
+     usage: /<command>
+     permission: forgottenrpg.printpoints
+     permission-message: You don't have <permission>
+     
+   frpg_clearpoints:
+     description: Prints the points defined
+     usage: /<command>
+     permission: forgottenrpg.clearpoints
+     permission-message: You don't have <permission>
+     
+   frpg_blockcount:
+     description: Prints the number of blocks inside the selection
+     usage: /<command>
+     permission: forgottenrpg.blockcount
+     permission-message: You don't have <permission>
+     
+   frpg_getselection:
+     description: Prints the number of blocks inside the selection
+     usage: /<command>
+     permission: forgottenrpg.blockcount
+     permission-message: You don't have <permission>
+     
+   frpg_blockcount:
+     description: Prints the number of blocks inside the selection
+     usage: /<command>
+     permission: forgottenrpg.blockcount
+     permission-message: You don't have <permission>
